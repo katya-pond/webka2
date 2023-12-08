@@ -1,0 +1,208 @@
+body {
+  margin: auto;
+    background-color: #f4f4f4;
+    color: #141414;    /* text color */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px
+}
+
+  nav a {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: #212529;
+    text-decoration: none;
+    padding-right: 6%;
+    padding-top: 4%;
+}
+
+.kava-nav{
+    font-size: 34px;
+    font-family: 'Inter', sans-serif;
+    margin: 0%;
+    padding: 10%;
+    color:#212529;
+}
+
+.kava-nav:hover{
+    color: white;
+    font-size: 34px;
+}
+
+nav .KAVA {
+    font-size: 34px;
+    font-family: 'Inter', sans-serif;
+    margin: 0%;
+    padding: 10%;
+    color: #212529;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background: rgba(131, 129, 129, 0.526);
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    width: 34%;
+}
+
+.one{
+  color: white;
+  background-color: #212529;
+}
+
+
+section{
+  padding: 3%;
+
+}
+
+.one p{
+  padding-left: 3%;
+  padding-right: 8%;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  font-size: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.one h1{
+  padding-left: 3%;
+  padding-right: 8%;
+  font-size: 35px;
+  font-family: 'Inter', sans-serif;
+}
+
+
+  label {
+    display: block;    /* make label elements appear on separate lines (label elements are inline by default). */
+    margin: 0.5rem 0;    /* enables spacing between lines */
+  }
+  
+  h1, p {
+    
+    text-align: center;
+  }
+
+
+
+  footer {
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+  }
+  
+  footer a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      font-family: 'Inter', sans-serif;
+    }
+    footer a:hover {
+      color: #A6A6AB;
+  }
+  
+
+
+  * {
+    box-sizing: border-box;
+ }
+ body {
+    background: #A6A6AB;
+ }
+ .decor {
+    position: relative;
+    max-width: 400px;
+    margin: 50px auto 0;
+    background: white;
+    border-radius: 30px;
+    margin-bottom: 5%;
+ }
+ .form-left-decoration, .form-right-decoration {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    background: #212529;
+    border-radius: 20px;
+ }
+ .form-left-decoration {
+    bottom: 60px;
+    left: -30px;
+ }
+ .form-right-decoration {
+    top: 60px;
+    right: -30px;
+ }
+ .form-left-decoration:before, .form-left-decoration:after, .form-right-decoration:before, .form-right-decoration:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 30px;
+    background: white;
+ }
+ .form-left-decoration:before {
+    top: -20px;
+ }
+ .form-left-decoration:after {
+    top: 20px;
+    left: 10px;
+ }
+ .form-right-decoration:before {
+    top: -20px;
+    right: 0;
+ }
+ .form-right-decoration:after {
+    top: 20px;
+    right: 10px;
+ }
+ .circle {
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+ }
+ .form-inner {
+    padding: 50px;
+ }
+ .form-inner input, .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+ }
+ .form-inner input[type="submit"] {
+    margin-top: 30px;
+    background: #212529;
+    border-bottom: 4px solid #707981;
+    color: white;
+    font-size: 14px;
+ }
+ .form-inner textarea {
+    resize: none;
+ }
+ .form-inner h3 {
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #707981;
+ }

@@ -1,0 +1,153 @@
+body {
+    margin: auto;
+}
+
+nav a {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: #212529;
+    text-decoration: none;
+    padding-right: 6%;
+    padding-top: 4%;
+}
+
+.kava-nav{
+    font-size: 34px;
+    font-family: 'Inter', sans-serif;
+    margin: 0%;
+    padding: 10%;
+    color:#212529;
+}
+
+.kava-nav:hover{
+    color: white;
+    font-size: 34px;
+
+
+}
+
+nav .KAVA {
+    font-size: 34px;
+    font-family: 'Inter', sans-serif;
+    margin: 0%;
+    padding: 10%;
+    color: #212529;
+}
+
+nav a:hover {
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background: rgba(182, 167, 167, 0.526);
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    width: 34%;
+}
+
+
+footer {
+    background-color: #212529;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+footer a:hover {
+    color: #A6A6AB;
+}
+
+
+.one{
+    color: white;
+    background-color: #212529;
+}
+
+
+section{
+    padding: 3%;
+
+}
+
+.one p{
+    padding-left: 3%;
+    padding-right: 8%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.one h1{
+    padding-left: 3%;
+    padding-right: 8%;
+    font-size: 35px;
+    font-family: 'Inter', sans-serif;
+}
+
+.two{
+    
+    background-color:#F4F4F4;
+}
+
+.two p{
+    color: black;
+ 
+}
+
+.two-two{
+    display: flex;
+    justify-content: center;
+}
+
+.two-one p{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+.two-three{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+
+.two-five{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    padding-left: 45%;
+    padding-bottom: 2%;
+    padding-right: 7%;
+}
+
+.two-four{
+    text-align: center;
+}
+
+
+
